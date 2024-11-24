@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssik.css">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Strona główna</title>
+</head>
+<body>
+    <div id="main">
+        <div id="baner">
+            <h1 class="naglowek">Strona główna</h1>
+            <nav>
+                <ul>
+                  <li>Menu</li>
+                  <li><a href="stronka1.html">Strona główna</a></li>
+                  <li><a href="stronka2.html">Tabelka</a></li>
+                  <li><a href="stronka3.html">Ankieta</a></li>
+                  <li>
+                    Dodatkowe strony
+                    <ul class="submenu">
+                      <li><a href="stronka4.html">Galeria zdjęć</a></li>
+                      <li><a href="stronka5.html">Animacje</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div id="center">
+    
+              <div id="humor">
+                <h2>Wybierz dzisiejszy humor</h2>
+                <br>
+                <select id="humorek">
+                    <optgroup label="Dobry">
+                        <option value="Wesoły">Wesoły</option>
+                        <option value="Zadowolony">Zadowolony</option>
+                        <option value="Szczęśliwy">Szczęśliwy</option>
+                    </optgroup>
+                    <optgroup label="Średni">
+                        <option value="Znudzony">Znudzony</option>
+                        <option value="Bez humoru">Bez humoru</option>
+                    </optgroup>
+                    <optgroup label="Zły">
+                        <option value="Smutny">Smutny</option>
+                        <option value="Zły">Zły</option>
+                        <option value="Wściekły">Wściekły</option>
+                    </optgroup>
+                </select>
+              </div>
+              <img id="buźki" src="humorki.png" alt="skala humorów">
+        </div>
+        <div id="stopka"><p class="stopka">Stronę zrobiła: Maria Rek</p></div>
+    </div>
+</body>
+</html>
