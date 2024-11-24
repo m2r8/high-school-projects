@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl"> .
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Konfigurator</title>
+</head>
+<body>
+    <div id="main">
+        <div id="lewy">
+            <h1>Konfigurator</h1>
+            <div id="kolor-t">
+                <h4>Zmień kolor tła:</h4>
+                <input type="button" value="white" id="W">
+                <input type="button" value="lightgreen" id="G">
+                <input type="button" value="lightseagreen" id="SG">
+            </div>
+            <div id="kolor-cz">
+                <h4>Zmień kolor czcionki:</h4>
+                <select class="czcionka">
+                    <option id="black">Black</option>
+                    <option id="white">White</option>
+                    <option id="red">Red</option>
+                </select>
+            </div>
+            <div id="font">
+                <h4>Podaj rozmiar czcionki w px</h4>
+                <input type="number" id="rozmiar">
+            </div>
+            <div id="styl-l">
+                <h4>Określ styl listy:</h4>
+                <input type="radio" id="okrag" name="list-t">okrąg
+                <br>
+                <input type="radio" id="kwadrat" name="list-t">kwadrat
+            </div>
+            <div id="podkresl">
+                <h4>Czy podkreślić nagłówek?</h4>
+                <input type="checkbox" id="check">TAK
+            </div>
+        </div>
+
+        <div id="prawy">
+            <div id="gorny">
+                <div id="zdjecie">
+                    <img src="photo.jpg" id="foto">
+                </div>
+                <div id="lista">
+                    <h2>Lista miejsc do odwiedzenia:</h2>
+                    <ul id="lista-ul">
+                        <li>Kalifornia</li>
+                        <li>San Fraancisco</li>
+                        <li>Nowy Jork</li>
+                        <li>Rio de Janeiro</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="dolny">
+                <p id="tekst">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div>
+    <script src="skrypt.js"></script>
+</body>
+</html>
