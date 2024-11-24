@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+    <title>Sikoku</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+    </style>
+
+
+    <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+        var speed = 500;
+        var text = "Sikoku      ";
+        function scroll()
+        {
+          document.title = text;
+          var temp = text.substr(1, text.length);
+          text = temp + text.substr(0,1);
+          setTimeout("scroll()", speed);
+        }
+    </SCRIPT>
+</head>
+<body onLoad=scroll();>
+    <div id="container">
+        <div id="napis7">
+            <h3 class="h3">Sikoku</h3>
+        </div>
+        <div id="pow">
+            <h2 class="h2"><a href="index.html">Powrót</a></h2>
+        </div>
+
+        <div id="tekst">
+        <p><b>Sikoku</b> to najmniejsza i najsłabiej zaludniona z czterech głównych wysp Japonii, położona w południowo-zachodniej części Wysp Japońskich, między Morzem Wewnętrznym a Oceanem Spokojnym.
+            Nazwa wyspy wywodzi się od historycznych „czterech prowincji”: Sanuki, Awa, Tosa oraz Iyo .
+            W ubiegłych wiekach do Sikoku podążały pielgrzymki ku czci mnicha Kūkaia; zwyczaj ten jest kultywowany do dziś.</p>
+        </div>
+        <div id="imabari"><img id="imabari" src="imabari.jpg"></div>
+        <div id="takamatsu"><img id="takamatsu" src="takamatsu.jpg"></div>
+        <div id="footer">Maria Rek 3TIp</div>
+    </div>
+</body>
+</html>

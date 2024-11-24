@@ -1,0 +1,77 @@
+body {
+    background-image: url(tło.webp);
+    background-size: cover;
+}
+h1 {
+    font-size: 48px;
+    color: #b34467;
+    text-shadow: 0px 0px 15px black;
+    font-family: Garamond;
+    margin-top: 7%;
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+    color: #f5bfd0;
+    text-shadow: 0px 0px 15px white;
+    font-family: Garamond;
+}
+h3 {
+    font-size: 22px;
+    color: #bfa463;
+    text-shadow: 0px 0px 15px black;
+    font-family: Garamond;
+}
+/* =================1=================== */
+#main {
+    min-height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formularz {
+    height: 550px;
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+#regulamin {
+    font-family: Garamond;
+    font-size: 20px;
+    text-shadow: 0px 0px 15px white;
+    color: #750f2f;
+}
+/* =================2=================== */
+#main2 {
+    width: 35%;
+    left: 39%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+#tab1 {
+    height: 25%;
+    width: 58%;
+    border-style: dashed;
+    font-family: Garamond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#tab2 {
+    width: 58%;
+    border-style: dashed;
+    font-family: Garamond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#dane {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}

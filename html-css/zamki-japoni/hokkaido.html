@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+    <title>Hokkaido</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+    </style>
+
+
+    <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+        var speed = 500;
+        var text = "Hokkaido      ";
+        function scroll()
+        {
+          document.title = text;
+          var temp = text.substr(1, text.length);
+          text = temp + text.substr(0,1);
+          setTimeout("scroll()", speed);
+        }
+    </SCRIPT>
+</head>
+<body onLoad=scroll();>
+    <div id="container">
+        <div id="napis2">
+            <h3 class="h3">Hokkaido</h3>
+        </div>
+        <div id="pow">
+            <h2 class="h2"><a href="index.html">Powrót</a></h2>
+        </div>
+
+        <div id="tekst">
+        <p><b>Hokkaido</b> to największa pod względem powierzchni jednostka podziału administracyjnego Japonii, w skład której wchodzi druga pod względem wielkości wyspa tego państwa.
+            Od Honsiu oddziela ją cieśnina Tsugaru, ale obie wyspy są połączone podwodnym tunelem Seikan. Największym miastem i zarazem stolicą tego dystryktu jest Sapporo.</p>
+        </div>
+        <div id="matsumae"><img id="matsumae" src="matsumae.jpg"></div>
+        <div id="goryokaku"><img id="goryokaku" src="goryokaku.jpg"></div>
+        <div id="footer">Maria Rek 3TIp</div>
+    </div>
+</body>
+</html>
