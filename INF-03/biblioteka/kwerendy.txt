@@ -1,2 +1,0 @@
-1. SELECT `imie`,`nazwisko` FROM `autorzy`
-2. INSTER INTO `czytelnicy`(`imie`,`nazwisko`,`kod`) VALUES()
