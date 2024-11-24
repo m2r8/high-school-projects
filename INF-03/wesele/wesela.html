@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl5.css">
+    <title>Dom Weselny</title>
+</head>
+<body>
+    <div id="main">
+        <div id="baner">
+                <img src="logo.png" id="logo">
+                <h1>Dom Weselny zorganizuje wesele za Ciebie</h1>
+                <img src="logo.png" id="logo">
+        </div>
+        <div id="panele">
+            <div id="lewy">
+                <h2>Dom Weselny</h2>
+                <p>ul. Przemysłowa 5</p>
+                <p>Kalisz</p>
+                <p><a href="logo.png">Pobierz logo</a></p>
+            </div>
+            <div id="srodek">
+                <h2>Oferujemy</h2>
+                <ul>
+                    <li>Wesela</li>
+                    <li>Bankiety</li>
+                    <li>Konferencje</li>
+                </ul>
+            </div>
+            <div id="prawy">
+                <p><a href="regulamin.txt" id="odsył">czytaj regulamin</a></p>
+            </div>
+        </div>
+        <div id="dolny">
+            <h2>Ile będzie kosztowało moje wesele?</h2>
+            <section>
+                Podaj liczbe gości:
+                <input type="number" id="goscie">
+            </section>
+            <section>
+                <input type="checkbox" id="poprawiny">Wesele z poprawinami?
+            </section>
+            <button onclick="oblicz()">Oblicz koszt</button>
+            <p id="wynik"></p>
+        </div>
+        <div id="stopka">
+            <section>
+                Stronę internetową opracował: <i>Maria Rek</i>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+#main{
+
+}
+
+#baner{
+    background-color: #1c59a7;
+    color: white;
+    text-align: center;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#panele{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#lewy{
+    background-color: #3a70b5;
+    width: 33%;
+    height: 200px;
+}
+
+#srodek{
+    background-color: #5a8ac8;
+    width: 33%;
+    height: 200px;
+}
+
+#prawy{
+    background-color: #86acdd;
+    text-align: center;
+    width: 34%;
+    height: 200px;
+    
+}
+
+#dolny{
+    background-color: #86acdd;
+    text-align: center;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#stopka{
+    background-color: #1c59a7;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#logo{
+    height: 70px;
+}
+
+#odsył{
+    background-color: yellow;
+    padding: 10px;
+}
