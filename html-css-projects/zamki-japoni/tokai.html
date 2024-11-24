@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+    <title>Tōkai</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+    </style>
+
+
+    <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+        var speed = 500;
+        var text = "Tōkai      ";
+        function scroll()
+        {
+          document.title = text;
+          var temp = text.substr(1, text.length);
+          text = temp + text.substr(0,1);
+          setTimeout("scroll()", speed);
+        }
+    </SCRIPT>
+</head>
+<body onLoad=scroll();>
+    <div id="container">
+        <div id="napis4">
+            <h3 class="h3">Tōkai</h3>
+        </div>
+        <div id="pow">
+            <h2 class="h2"><a href="index.html">Powrót</a></h2>
+        </div>
+
+        <div id="tekst">
+        <p><b>Tōkai</b> to podregion w środkowej Japonii. Nazwa wywodzi się z okresu Edo, od Tōkaidō jednego z pięciu głównych szlaków tego okresu.
+            Skład tego regionu nie jest do końca jasny, różni się w zależności od kryteriów.
+            Z punktu widzenia geografii w skład regionu wchodzą prefektury Shizuoka, Aichi, Mie i południowa część Gifu.</p>
+        </div>
+        <div id="inuyama"><img id="inuyama" src="inuyama.jpg"></div>
+        <div id="nagoya"><img id="nagoya" src="nagoya.jpg"></div>
+        <div id="footer">Maria Rek 3TIp</div>
+    </div>
+</body>
+</html>

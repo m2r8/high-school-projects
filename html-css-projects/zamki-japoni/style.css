@@ -1,0 +1,505 @@
+body {
+    background-image: url(japonia.gif);
+    background-repeat: repeat;
+    height: 100vh;
+    min-height: 375px;
+    position: relative;
+    background-size: cover;
+  }
+  a{
+    text-decoration: none;
+    color: #f09cc3;
+  }
+  a:hover{
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+    transition: text-shadow .8s;
+    color: #77394c;
+    transition: color .8s;
+  }
+  p {
+    text-indent: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes opacity {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  #container {
+    min-height:100%;
+    position:relative;
+ }
+ #footer {
+  position:absolute;
+  bottom:-1%;
+  left: -1%;
+  width:100%;
+  height: 20px;
+  background:#40ad77;
+  text-align: center;
+  font-size: 24px;
+  color: #f09cc3;
+  padding: 30px;
+}
+#pow{
+  position: absolute;
+  top: 2%;
+  left: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 95, 73);
+  border-radius: 50px;
+  height: 85px;
+  width: 280px;
+  animation: opacity 2s;
+}
+#pow:hover{
+    background-color: rgb(175, 226, 195);
+    transition: background-color .8s;
+}
+ /* REGIONY = H2 */
+ .h2 {
+  font-size: 65px;
+  color: #f09cc3;
+  text-shadow: 0px 0px 15px white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.h2:hover{
+  text-shadow: 0px 0px 15px rgb(0, 0, 0);
+  transition: text-shadow .8s;
+  color: #77394c;
+  transition: color .8s;
+}
+
+ /* NAZWA = H3 */
+ .h3 {
+  font-size: 90px;
+  color: #f09cc3;
+  text-align: center;
+  text-shadow: 0px 0px 15px white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#napis{
+  position: absolute;
+  top: -5%;
+  left: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tekst {
+  position: absolute;
+  top: 20%;
+  width: 60%;
+  left: 20%;
+  background-color: rgb(81, 172, 111);
+  border: 5px solid rgb(40, 172, 111);
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+  text-shadow: 0px 0px 10px white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* =======================GŁOWNA================================== */
+
+/* WYBIERZ REGION = WYBIERZ & H1 */
+  .h1 {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    font-size: 78px;
+    color: #f09cc3;
+    text-shadow: 0px 0px 15px black;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  .h1:hover {
+    color: #b0e7be;
+    text-shadow: 0px 0px 15px white;
+    transition: text-shadow .20s;
+    transition: color .20s;
+  }
+
+  #wybierz {
+    height: 60em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: opacity 2s;
+  }
+    
+/* REGION 1 = K1*/
+#k1{
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 95, 73);
+  border-radius: 50px;
+  height: 85px;
+  width: 280px;
+  animation: fade-in 2s;
+}
+  #k1:hover{
+    background-color: rgb(175, 226, 195);
+    transition: background-color .8s;
+  }
+
+  /* REGION 2 = K2*/
+  #k2{
+    position: absolute;
+    top: 25%;
+    left: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 95, 73);
+    border-radius: 50px;
+    height: 85px;
+    width: 280px;
+    animation: fade-in 2s;
+  }
+    #k2:hover{
+      background-color: rgb(175, 226, 195);
+      transition: background-color .8s;
+    }
+
+  /* REGION 3 = K3*/
+  #k3{
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 95, 73);
+    border-radius: 50px;
+    height: 85px;
+    width: 280px;
+    animation: fade-in 2s;
+  }
+    #k3:hover{
+      background-color: rgb(175, 226, 195);
+      transition: background-color .8s;
+    }
+
+  /* REGION 4 = K4*/
+  #k4{
+    position: absolute;
+    top: 65%;
+    left: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 95, 73);
+    border-radius: 50px;
+    height: 85px;
+    width: 280px;
+    animation: fade-in 2s;
+  }
+    #k4:hover{
+      background-color: rgb(175, 226, 195);
+      transition: background-color .8s;
+    }
+
+  /* REGION 5 = K5*/
+  #k5{
+    position: absolute;
+    top: 65%;
+    left: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 95, 73);
+    border-radius: 50px;
+    height: 85px;
+    width: 280px;
+    animation: fade-in 2s;
+  }
+    #k5:hover{
+      background-color: rgb(175, 226, 195);
+      transition: background-color .8s;
+    }
+
+  /* REGION 6 = K6*/
+  #k6{
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 95, 73);
+    border-radius: 50px;
+    height: 85px;
+    width: 280px;
+    animation: fade-in 2s;
+  }
+    #k6:hover{
+      background-color: rgb(175, 226, 195);
+      transition: background-color .8s;
+    }
+
+
+/* =======================HOKKAIDO================================== */
+#napis2{
+  position: absolute;
+  top: -5%;
+  left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#matsumae{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  left: 10%;
+  border-radius: 50px;
+}
+#matsumae:hover{
+  left: 15%;
+  transition: left .8s;
+}
+#goryokaku{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  right: 10%;
+  border-radius: 50px;
+}
+#goryokaku:hover{
+  right: 15%;
+  transition: right .8s;
+}
+
+
+
+/* =======================TOHOKU================================== */
+#napis3{
+  position: absolute;
+  top: -5%;
+  left: 43%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hirosaki{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 35%;
+  left: 10%;
+  border-radius: 50px;
+}
+#hirosaki:hover{
+  top: 28%;
+  transition: top .8s;
+}
+#aizu{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 35%;
+  right: 10%;
+  border-radius: 50px;
+}
+#aizu:hover{
+  top: 28%;
+  transition: top .8s;
+}
+
+
+/* =======================TOKAI================================== */
+#napis4{
+  position: absolute;
+  top: -5%;
+  left: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#inuyama{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  left: 10%;
+  border-radius: 50px;
+  opacity: 0.5;
+}
+#inuyama:hover{
+  opacity: 1;
+  transition: opacity .8s;
+}
+
+#nagoya{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  right: 10%;
+  border-radius: 50px;
+  opacity: 0.5;
+}
+#nagoya:hover{
+  opacity: 1;
+  transition: opacity .8s;
+}
+
+
+/* =======================KANTO================================== */
+#napis5{
+  position: absolute;
+  top: -5%;
+  left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#edo{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  left: 10%;
+  border-radius: 50px;
+}
+#edo:hover{
+  left: 15%;
+  transition: left .8s;
+}
+#banana{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  right: 10%;
+  border-radius: 50px;
+}
+#banana:hover{
+  right: 15%;
+  transition: right .8s;
+}
+
+/* =======================KANSAI================================== */
+#napis6{
+  position: absolute;
+  top: -5%;
+  left: 43%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#himeji{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 35%;
+  left: 10%;
+  border-radius: 50px;
+}
+#himeji:hover{
+  top: 28%;
+  transition: top .8s;
+}
+#osaka{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 35%;
+  right: 10%;
+  border-radius: 50px;
+}
+#osaka:hover{
+  top: 28%;
+  transition: top .8s;
+}
+
+/* =======================SIKOKU================================== */
+#napis7{
+  position: absolute;
+  top: -5%;
+  left: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#imabari{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  left: 10%;
+  border-radius: 50px;
+  opacity: 0.5;
+}
+#imabari:hover{
+  opacity: 1;
+  transition: opacity .8s;
+}
+
+#takamatsu{
+  position: absolute;
+  width: 53%;
+  height: 60%;
+  top: 30%;
+  right: 10%;
+  border-radius: 50px;
+  opacity: 0.5;
+}
+#takamatsu:hover{
+  opacity: 1;
+  transition: opacity .8s;
+}
+
+
+
+  /* @keyframes fade-right {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes opacity {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-top {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+    }
+  } */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+    <title>Tōhoku</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+    </style>
+
+
+    <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+        var speed = 500;
+        var text = "Tōhoku      ";
+        function scroll()
+        {
+          document.title = text;
+          var temp = text.substr(1, text.length);
+          text = temp + text.substr(0,1);
+          setTimeout("scroll()", speed);
+        }
+    </SCRIPT>
+</head>
+<body onLoad=scroll();>
+    <div id="container">
+        <div id="napis3">
+            <h3 class="h3">Tōhoku</h3>
+        </div>
+        <div id="pow">
+            <h2 class="h2"><a href="index.html">Powrót</a></h2>
+        </div>
+
+        <div id="tekst">
+        <p><b>Tōhoku</b> to jedna z geograficznych krain Japonii. Region Tōhoku znajduje się w północno-wschodniej części największej wyspy Japonii, Honsiu.
+            Tōhoku składa się z sześciu prefektur: Aomori, Akita, Iwate, Yamagata, Fukushima oraz Miyagi. Region ten poniósł ogromne straty ludzkie i materialne w czasie trzęsienia ziemi i tsunami w 2011 roku.</p>
+        </div>
+        <div id="hirosaki"><img id="hirosaki" src="hirosaki.jpg"></div>
+        <div id="aizu"><img id="aizu" src="aizu.jpg"></div>
+        <div id="footer">Maria Rek 3TIp</div>
+    </div>
+</body>
+</html>
