@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+#baner{
+    background-color: #18FFA4;
+    height: 50px;
+}
+
+#lewy{
+    background-color: #AEFFCF;
+    height: 550px;
+    width: 30%;
+}
+#srodek{
+    background-color: #DDFFCD;
+    height: 550px;
+    width: 40%;
+}
+#prawy{
+    background-color: #AEFFCF;
+    height: 550px;
+    width: 30%;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+#stopka{
+    background-color: #18FFA4;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    margin-left: 100px;
+}
+img{
+    margin: 100px;
+}
+form{
+    margin-left: 150px;
+}
+h4{
+    margin-left: 100px;
+}
+h2,h3{
+    text-align: center;
+}
